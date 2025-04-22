@@ -1,0 +1,42 @@
+.efect-color {
+      li:hover {
+        background-color: brown;
+        cursor: pointer;
+      }
+      li:active {
+        transform: scale(0.98);
+      }
+    
+      li:focus {
+        color:blueviolet
+      }
+    
+      li:disabled {
+        color:green
+      }
+    
+      li:checked {
+        color:greenyellow
+      }
+
+
+      li:first-child {
+        font-weight: bold;
+      }
+  
+      li:last-child {
+        font-size: large;
+      }
+  
+      li:nth-child(even) {
+        text-decoration: underline;
+      }
+  
+      li:nth-child(odd) {
+        color: darkblue;
+      }
+  
+      li:nth-child(2) {
+        color:aqua;
+    }
+  }
